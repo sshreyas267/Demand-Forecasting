@@ -1,5 +1,4 @@
 ```{=html}
-<p align="center">
 ```
 # Event-Aware Staffing Demand Forecasting
 
@@ -12,7 +11,6 @@ event signals.
 ![Tableau](https://img.shields.io/badge/Tableau-Visualization-orange)
 
 ```{=html}
-</p>
 ```
 
 ------------------------------------------------------------------------
