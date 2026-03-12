@@ -57,7 +57,3 @@ The dashboard visualizes:
 ## Business Impact
 
 Incorporating event signals such as football games and academic calendar events improves demand prediction accuracy during peak periods and enables better staffing decisions.
-
----
-
-## Project Structure
