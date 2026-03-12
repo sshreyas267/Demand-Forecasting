@@ -1,59 +1,157 @@
+```{=html}
+<p align="center">
+```
 # Event-Aware Staffing Demand Forecasting
 
-## Overview
+A data analytics project that forecasts hourly staffing demand for
+campus dining operations using historical transaction data and campus
+event signals.
 
-This project builds an hourly demand forecasting system for campus dining operations. The model predicts staffing requirements based on historical dining transactions and event signals such as academic calendar events and football games.
+![SQL](https://img.shields.io/badge/SQL-Data%20Analysis-blue)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
+![Tableau](https://img.shields.io/badge/Tableau-Visualization-orange)
 
-The goal is to improve workforce planning and reduce forecast error during peak demand periods.
+```{=html}
+</p>
+```
 
----
+------------------------------------------------------------------------
 
-## Key Features
+# Project Overview
 
-- Hourly demand modeling from historical dining transactions
-- Baseline forecasting using day-of-week and hour-of-day patterns
-- Event-aware demand adjustments using campus events
-- Staffing recommendation model translating demand into workforce requirements
-- Interactive Tableau dashboard for operational decision-making
+Campus dining operations experience large fluctuations in demand driven
+by:
 
----
+-   Time of day\
+-   Day of week\
+-   Academic calendar events\
+-   Football games and campus activities
 
-## Tech Stack
+Traditional scheduling methods rely heavily on historical averages and
+often fail to capture **event-driven demand spikes**.
 
-- SQL
-- PostgreSQL
-- Tableau Public
+This project builds a **forecasting pipeline** that integrates dining
+transaction data with campus event signals to generate **hourly staffing
+recommendations**. The system helps operations teams anticipate peak
+demand and allocate staff more efficiently.
 
----
+------------------------------------------------------------------------
 
-## Data Pipeline
+# Key Features
 
-Dining Transactions  
-↓  
-Hourly Demand Aggregation  
-↓  
-Baseline Forecast Model  
-↓  
-Event-Aware Forecast Adjustment  
-↓  
-Staffing Recommendation Model  
-↓  
-Tableau Operations Dashboard
+### Demand Modeling
 
----
+-   Aggregates dining transaction data into hourly demand signals
+-   Identifies baseline demand patterns by day-of-week and hour-of-day
 
-## Dashboard
+### Event-Aware Forecasting
 
+<<<<<<< Updated upstream
 ![Staffing Forecast Dashboard](./Dashboard/Campus%20Demand%20Forecasting.png)
+=======
+-   Integrates campus events such as football games and academic
+    schedule changes
+-   Adjusts demand forecasts during high-traffic periods
+>>>>>>> Stashed changes
 
-The dashboard visualizes:
+### Operational Decision Support
 
-- Hourly demand trends
-- Actual vs forecast demand
-- Staffing recommendations by hour
+-   Converts demand forecasts into staffing recommendations
+-   Provides an interactive dashboard for operations teams
 
----
+------------------------------------------------------------------------
 
-## Business Impact
+# Tech Stack
 
+<<<<<<< Updated upstream
 Incorporating event signals such as football games and academic calendar events improves demand prediction accuracy during peak periods and enables better staffing decisions.
+=======
+  Tool             Purpose
+  ---------------- -------------------------------------
+  SQL              Data transformation and aggregation
+  PostgreSQL       Database management
+  Tableau Public   Dashboard visualization
+
+------------------------------------------------------------------------
+
+# Data Pipeline
+
+    Dining Transactions
+            │
+            ▼
+    Hourly Demand Aggregation
+            │
+            ▼
+    Baseline Forecast Model
+            │
+            ▼
+    Event-Aware Forecast Adjustment
+            │
+            ▼
+    Staffing Recommendation Model
+            │
+            ▼
+    Tableau Operations Dashboard
+
+------------------------------------------------------------------------
+
+# Dashboard
+
+![Staffing Forecast
+Dashboard](./Dashboard/Campus%20Demand%20Forecasting.png)
+
+The dashboard enables operations teams to monitor:
+
+-   Hourly dining demand trends\
+-   Actual vs forecast demand\
+-   Event-driven demand spikes\
+-   Recommended staffing levels by hour
+
+------------------------------------------------------------------------
+
+# Business Impact
+
+Incorporating event signals improves forecasting accuracy during peak
+campus activity periods.
+
+Key benefits include:
+
+-   Better workforce allocation during high demand hours
+-   Reduced understaffing during large campus events
+-   Data-driven operational decision making
+
+------------------------------------------------------------------------
+
+# Repository Structure
+
+    event-aware-staffing-forecast
+    │
+    ├── data
+    │
+    ├── sql
+    │
+    ├── dashboard
+    │   └── Campus Demand Forecasting.png
+    │
+    └── README.md
+
+------------------------------------------------------------------------
+
+# Skills Demonstrated
+
+-   Data modeling with SQL\
+-   Event-driven demand forecasting\
+-   Business analytics for operational planning\
+-   Dashboard design for decision support
+
+------------------------------------------------------------------------
+
+# Future Improvements
+
+-   Integrate machine learning forecasting models
+-   Incorporate weather and seasonal signals
+-   Build automated ETL pipelines for real-time updates
+-   Deploy dashboard for operational teams
+
+------------------------------------------------------------------------
+>>>>>>> Stashed changes
