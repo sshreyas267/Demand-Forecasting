@@ -44,7 +44,7 @@ Tableau Operations Dashboard
 
 ## Dashboard
 
-![Staffing Forecast Dashboard](Dashboard/Campus Demand Forecasting.png)
+![Staffing Forecast Dashboard](./dashboard/Campus%20Demand%20Forecasting.png)
 
 The dashboard visualizes:
 
