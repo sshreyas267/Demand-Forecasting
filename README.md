@@ -55,11 +55,11 @@ demand and allocate staff more efficiently.
 
 ## Tech Stack
 
-  Tool             Purpose
-  ---------------- -------------------------------------
-  SQL              Data transformation and aggregation
-  PostgreSQL       Database management
-  Tableau Public   Dashboard visualization
+| Tool | Purpose |
+|-----|------|
+| SQL | Data transformation and aggregation |
+| PostgreSQL | Database management |
+| Tableau Public | Dashboard visualization |
 
 ------------------------------------------------------------------------
 
