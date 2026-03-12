@@ -18,9 +18,9 @@ event signals.
 Campus dining operations experience large fluctuations in demand driven
 by:
 
--   Time of day\
--   Day of week\
--   Academic calendar events\
+-   Time of day
+-   Day of week
+-   Academic calendar events
 -   Football games and campus activities
 
 Traditional scheduling methods rely heavily on historical averages and
@@ -91,9 +91,9 @@ Dashboard](./Dashboard/Campus%20Demand%20Forecasting.png)
 
 The dashboard allows operations teams to analyze:
 
--   Hourly dining demand trends\
--   Actual vs forecast demand\
--   Event-driven demand spikes\
+-   Hourly dining demand trends
+-   Actual vs forecast demand
+-   Event-driven demand spikes
 -   Recommended staffing levels by hour
 
 ------------------------------------------------------------------------
