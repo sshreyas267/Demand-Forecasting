@@ -17,7 +17,7 @@ event signals.
 
 ------------------------------------------------------------------------
 
-# Project Overview
+## Project Overview
 
 Campus dining operations experience large fluctuations in demand driven
 by:
@@ -37,7 +37,7 @@ demand and allocate staff more efficiently.
 
 ------------------------------------------------------------------------
 
-# Key Features
+## Key Features
 
 ### Demand Modeling
 
@@ -46,13 +46,9 @@ demand and allocate staff more efficiently.
 
 ### Event-Aware Forecasting
 
-<<<<<<< Updated upstream
-![Staffing Forecast Dashboard](./Dashboard/Campus%20Demand%20Forecasting.png)
-=======
 -   Integrates campus events such as football games and academic
     schedule changes
 -   Adjusts demand forecasts during high-traffic periods
->>>>>>> Stashed changes
 
 ### Operational Decision Support
 
@@ -61,11 +57,8 @@ demand and allocate staff more efficiently.
 
 ------------------------------------------------------------------------
 
-# Tech Stack
+## Tech Stack
 
-<<<<<<< Updated upstream
-Incorporating event signals such as football games and academic calendar events improves demand prediction accuracy during peak periods and enables better staffing decisions.
-=======
   Tool             Purpose
   ---------------- -------------------------------------
   SQL              Data transformation and aggregation
@@ -74,7 +67,7 @@ Incorporating event signals such as football games and academic calendar events 
 
 ------------------------------------------------------------------------
 
-# Data Pipeline
+## Data Pipeline
 
     Dining Transactions
             │
@@ -95,12 +88,12 @@ Incorporating event signals such as football games and academic calendar events 
 
 ------------------------------------------------------------------------
 
-# Dashboard
+## Dashboard
 
 ![Staffing Forecast
 Dashboard](./Dashboard/Campus%20Demand%20Forecasting.png)
 
-The dashboard enables operations teams to monitor:
+The dashboard allows operations teams to analyze:
 
 -   Hourly dining demand trends\
 -   Actual vs forecast demand\
@@ -109,7 +102,7 @@ The dashboard enables operations teams to monitor:
 
 ------------------------------------------------------------------------
 
-# Business Impact
+## Business Impact
 
 Incorporating event signals improves forecasting accuracy during peak
 campus activity periods.
@@ -122,7 +115,7 @@ Key benefits include:
 
 ------------------------------------------------------------------------
 
-# Repository Structure
+## Repository Structure
 
     event-aware-staffing-forecast
     │
@@ -137,21 +130,20 @@ Key benefits include:
 
 ------------------------------------------------------------------------
 
-# Skills Demonstrated
+## Skills Demonstrated
 
--   Data modeling with SQL\
--   Event-driven demand forecasting\
--   Business analytics for operational planning\
+-   Data modeling with SQL
+-   Event-driven demand forecasting
+-   Business analytics for operational planning
 -   Dashboard design for decision support
 
 ------------------------------------------------------------------------
 
-# Future Improvements
+## Future Improvements
 
 -   Integrate machine learning forecasting models
 -   Incorporate weather and seasonal signals
--   Build automated ETL pipelines for real-time updates
+-   Build automated ETL pipelines for automated data refresh
 -   Deploy dashboard for operational teams
 
 ------------------------------------------------------------------------
->>>>>>> Stashed changes
