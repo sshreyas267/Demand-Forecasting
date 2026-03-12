@@ -1,5 +1,4 @@
-```{=html}
-```
+
 # Event-Aware Staffing Demand Forecasting
 
 A data analytics project that forecasts hourly staffing demand for
@@ -10,8 +9,7 @@ event signals.
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
 ![Tableau](https://img.shields.io/badge/Tableau-Visualization-orange)
 
-```{=html}
-```
+
 
 ------------------------------------------------------------------------
 
